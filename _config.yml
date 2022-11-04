@@ -19,10 +19,13 @@ whitelist:
   - jekyll-feed
   - jemoji
 
-markdown: kramdown
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-encoding: "utf-8"
 theme: minima
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
 
 include:
   - .htaccess
@@ -41,4 +44,7 @@ exclude:
   - vendor/ruby/
 keep_files:
   - .git
+
+gems:
+  - jekyll-paginate
 
