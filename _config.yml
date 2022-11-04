@@ -20,7 +20,7 @@ whitelist:
   - jemoji
 
 theme: minima
-encoding: "utf-8"
+encoding: "UTF-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 markdown: kramdown
 highlighter: rouge
